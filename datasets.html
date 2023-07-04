@@ -1,0 +1,371 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>TooT Suite DataSets</title>
+  <link rel="stylesheet" href="tootsuite.css">
+
+<style>
+section section {
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Main content -->
+<header>
+<h1>TooT Suite: Prediction and classification of membrane transport proteins</h1>
+<h2>A Genome Canada 2017 Bioinformatics and Computational Biology Competition Project</h2>
+</header>
+
+<nav>
+<ul class="navbar">
+<li><a href="index.html">Home</a></li>
+<li><a href="https://www.concordia.ca/faculty/gregory-butler.html" target="_BLANK">Gregory Butler</a></li>
+<li><a href="https://users.encs.concordia.ca/~tglatard/" target="_BLANK">Tristan Glatard</a></li>
+<li><a href="https://github.com/bioinformatics-group/" target="_BLANK">Software</a></li>
+<li><a href="datasets.html">Datasets</a></li>
+<li><a href="https://github.com/glatard/boutiques" target="_BLANK">Boutiques</a></li>
+<li><a href="https://www.genomecanada.ca/en/toot-suite-predication-and-classification-membrane-transport-proteins" target="_BLANK">Genome Canada Description</a></li>
+</nav>
+
+<section>
+
+<h2>Our Dataset</h2>
+<table>
+<tr>
+<th>Name</th>
+<th>Original Proteins</th>
+<th>Toot-T</th>
+<th>Toot-BERT-T</th>
+<th>Overlap</th>
+</tr>
+<tr>
+<td><a href="#Medicago-truncatula">Medicago-truncatula</a></td>
+<td>49956</td>
+<td>1892</td>
+<td>5980</td>
+<td>1639</td>
+</tr>
+<tr>
+<td><a href="#Penicillium-chrysogenum-ATCC28089-500485">Penicillium-chrysogenum-ATCC28089-500485</a></td>
+<td>12788</td>
+<td>913</td>
+<td>2607</td>
+<td>847</td>
+</tr>
+<tr>
+<td><a href="#Ashbya-gossypii-ATCC10895-cotton-pathogen">Ashbya-gossypii-ATCC10895-cotton-pathogen</a></td>
+<td>4757</td>
+<td>349</td>
+<td>1113</td>
+<td>282</td>
+</tr>
+<tr>
+<td><a href="#Bacillus-subtilis-168">Bacillus-subtilis-168</a></td>
+<td>4260</td>
+<td>603</td>
+<td>1761</td>
+<td>520</td>
+</tr>
+<tr>
+<td><a href="#A-niger-CBS513-88-proteins">A-niger-CBS513-88-proteins</a></td>
+<td>14058</td>
+<td>971</td>
+<td>2657</td>
+<td>892</td>
+</tr>
+<tr>
+<td><a href="#C-albicans-SC5314-proteins">C-albicans-SC5314-proteins</a></td>
+<td>6213</td>
+<td>471</td>
+<td>1448</td>
+<td>398</td>
+</tr>
+<tr>
+<td><a href="#Arabidopsis-thalian">Arabidopsis-thalian</a></td>
+<td>27404</td>
+<td>1647</td>
+<td>4301</td>
+<td>1311</td>
+</tr>
+<tr>
+<td><a href="#Sorghum-bicolor-4558">Sorghum-bicolor-4558</a></td>
+<td>34000</td>
+<td>1574</td>
+<td>4407</td>
+<td>1362</td>
+</tr>
+<tr>
+<td><a href="#Brassica-rapa-pekinensis-51351">Brassica-rapa-pekinensis-51351</a></td>
+<td>40801</td>
+<td>2195</td>
+<td>6524</td>
+<td>1874</td>
+</tr>
+<tr>
+<td><a href="#S-cerivisae-S288C-proteins">S-cerivisae-S288C-proteins</a></td>
+<td>5824</td>
+<td>701</td>
+<td>1402</td>
+<td>462</td>
+</tr>
+<tr>
+<td><a href="#Ecoli-K12-proteins">Ecoli-K12-proteins</a></td>
+<td>4349</td>
+<td>894</td>
+<td>2044</td>
+<td>730</td>
+</tr>
+<tr>
+<td><a href="#Agaricus-bisporus-597362">Agaricus-bisporus-597362</a></td>
+<td>11204</td>
+<td>492</td>
+<td>1806</td>
+<td>425</td>
+</tr>
+<tr>
+<td><a href="#Bos-taurus-9913">Bos-taurus-9913</a></td>
+<td>23846</td>
+<td>1390</td>
+<td>3939</td>
+<td>1149</td>
+</tr>
+<tr>
+<td><a href="#Botrytis-cinerea-1290391">Botrytis-cinerea-1290391</a></td>
+<td>11022</td>
+<td>751</td>
+<td>2218</td>
+<td>673</td>
+</tr>
+<tr>
+<td><a href="#Brassica-napus-3708">Brassica-napus-3708</a></td>
+<td>60180</td>
+<td>2696</td>
+<td>8657</td>
+<td>2322</td>
+</tr>
+<tr>
+<td><a href="#Gallus-gallus-9031">Gallus-gallus-9031</a></td>
+<td>18116</td>
+<td>1046</td>
+<td>3046</td>
+<td>873</td>
+</tr>
+<tr>
+<td><a href="#Gibberella-zeae-FGSC9075-229533">Gibberella-zeae-FGSC9075-229533</a></td>
+<td>14162</td>
+<td>948</td>
+<td>2798</td>
+<td>863</td>
+</tr>
+<tr>
+<td><a href="#Magnaporthe-oryzae-FGSC8958-242507">Magnaporthe-oryzae-FGSC8958-242507</a></td>
+<td>12676</td>
+<td>709</td>
+<td>2172</td>
+<td>644</td>
+</tr>
+<tr>
+<td><a href="#Oryza-sativa-japonica-39947">Oryza-sativa-japonica-39947</a></td>
+<td>43655</td>
+<td>1507</td>
+<td>5338</td>
+<td>1319</td>
+</tr>
+<tr>
+<td><a href="#Phytophthora-infestans-T30-4-403677">Phytophthora-infestans-T30-4-403677</a></td>
+<td>17609</td>
+<td>945</td>
+<td>2927</td>
+<td>849</td>
+</tr>
+<tr>
+<td><a href="#Sus-scrofa-9823">Sus-scrofa-9823</a></td>
+<td>22166</td>
+<td>1210</td>
+<td>3290</td>
+<td>1008</td>
+</tr>
+</table>
+
+
+            <section id="Medicago-truncatula">
+                <h3>Medicago-truncatula.fasta</h3>
+                <p><a href="datasets/Proteomes/Medicago-truncatula.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Medicago-truncatula.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Medicago-truncatula.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Medicago-truncatula.svg" alt="Medicago-truncatula.fasta">
+            </section>
+
+            <section id="Penicillium-chrysogenum-ATCC28089_500485">
+                <h3>Penicillium-chrysogenum-ATCC28089_500485.fasta</h3>
+                <p><a href="datasets/Proteomes/Penicillium-chrysogenum-ATCC28089_500485.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Penicillium-chrysogenum-ATCC28089_500485.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Penicillium-chrysogenum-ATCC28089_500485.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Penicillium-chrysogenum-ATCC28089_500485.svg" alt="Penicillium-chrysogenum-ATCC28089_500485.fasta">
+            </section>
+
+            <section id="Ashbya-gossypii-ATCC10895-cotton-pathogen">
+                <h3>Ashbya-gossypii-ATCC10895-cotton-pathogen.fasta</h3>
+                <p><a href="datasets/Proteomes/Ashbya-gossypii-ATCC10895-cotton-pathogen.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Ashbya-gossypii-ATCC10895-cotton-pathogen.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Ashbya-gossypii-ATCC10895-cotton-pathogen.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Ashbya-gossypii-ATCC10895-cotton-pathogen.svg" alt="Ashbya-gossypii-ATCC10895-cotton-pathogen.fasta">
+            </section>
+
+            <section id="Bacillus-subtilis-168">
+                <h3>Bacillus-subtilis-168.fasta</h3>
+                <p><a href="datasets/Proteomes/Bacillus-subtilis-168.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Bacillus-subtilis-168.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Bacillus-subtilis-168.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Bacillus-subtilis-168.svg" alt="Bacillus-subtilis-168.fasta">
+            </section>
+
+            <section id="A_niger_CBS513_88_proteins">
+                <h3>A_niger_CBS513_88_proteins.fasta</h3>
+                <p><a href="datasets/Proteomes/A_niger_CBS513_88_proteins.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/A_niger_CBS513_88_proteins.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/A_niger_CBS513_88_proteins.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/A_niger_CBS513_88_proteins.svg" alt="A_niger_CBS513_88_proteins.fasta">
+            </section>
+
+            <section id="C_albicans_SC5314_proteins">
+                <h3>C_albicans_SC5314_proteins.fasta</h3>
+                <p><a href="datasets/Proteomes/C_albicans_SC5314_proteins.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/C_albicans_SC5314_proteins.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/C_albicans_SC5314_proteins.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/C_albicans_SC5314_proteins.svg" alt="C_albicans_SC5314_proteins.fasta">
+            </section>
+
+            <section id="Arabidopsis-thalian">
+                <h3>Arabidopsis-thalian.fasta</h3>
+                <p><a href="datasets/Proteomes/Arabidopsis-thalian.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Arabidopsis-thalian.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Arabidopsis-thalian.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Arabidopsis-thalian.svg" alt="Arabidopsis-thalian.fasta">
+            </section>
+
+            <section id="Sorghum-bicolor_4558">
+                <h3>Sorghum-bicolor_4558.fasta</h3>
+                <p><a href="datasets/Proteomes/Sorghum-bicolor_4558.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Sorghum-bicolor_4558.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Sorghum-bicolor_4558.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Sorghum-bicolor_4558.svg" alt="Sorghum-bicolor_4558.fasta">
+            </section>
+
+            <section id="Brassica-rapa-pekinensis_51351">
+                <h3>Brassica-rapa-pekinensis_51351.fasta</h3>
+                <p><a href="datasets/Proteomes/Brassica-rapa-pekinensis_51351.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Brassica-rapa-pekinensis_51351.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Brassica-rapa-pekinensis_51351.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Brassica-rapa-pekinensis_51351.svg" alt="Brassica-rapa-pekinensis_51351.fasta">
+            </section>
+
+            <section id="S_cerivisae_S288C_proteins">
+                <h3>S_cerivisae_S288C_proteins.fasta</h3>
+                <p><a href="datasets/Proteomes/S_cerivisae_S288C_proteins.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/S_cerivisae_S288C_proteins.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/S_cerivisae_S288C_proteins.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/S_cerivisae_S288C_proteins.svg" alt="S_cerivisae_S288C_proteins.fasta">
+            </section>
+
+            <section id="Ecoli-K12-proteins">
+                <h3>Ecoli-K12-proteins.fasta</h3>
+                <p><a href="datasets/Proteomes/Ecoli-K12-proteins.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Ecoli-K12-proteins.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Ecoli-K12-proteins.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Ecoli-K12-proteins.svg" alt="Ecoli-K12-proteins.fasta">
+            </section>
+
+            <section id="Agaricus-bisporus_597362">
+                <h3>Agaricus-bisporus_597362.fasta</h3>
+                <p><a href="datasets/Proteomes/Agaricus-bisporus_597362.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Agaricus-bisporus_597362.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Agaricus-bisporus_597362.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Agaricus-bisporus_597362.svg" alt="Agaricus-bisporus_597362.fasta">
+            </section>
+
+            <section id="Bos-taurus_9913">
+                <h3>Bos-taurus_9913.fasta</h3>
+                <p><a href="datasets/Proteomes/Bos-taurus_9913.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Bos-taurus_9913.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Bos-taurus_9913.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Bos-taurus_9913.svg" alt="Bos-taurus_9913.fasta">
+            </section>
+
+            <section id="Botrytis-cinerea_1290391">
+                <h3>Botrytis-cinerea_1290391.fasta</h3>
+                <p><a href="datasets/Proteomes/Botrytis-cinerea_1290391.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Botrytis-cinerea_1290391.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Botrytis-cinerea_1290391.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Botrytis-cinerea_1290391.svg" alt="Botrytis-cinerea_1290391.fasta">
+            </section>
+
+            <section id="Brassica-napus_3708">
+                <h3>Brassica-napus_3708.fasta</h3>
+                <p><a href="datasets/Proteomes/Brassica-napus_3708.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Brassica-napus_3708.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Brassica-napus_3708.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Brassica-napus_3708.svg" alt="Brassica-napus_3708.fasta">
+            </section>
+
+            <section id="Gallus-gallus_9031">
+                <h3>Gallus-gallus_9031.fasta</h3>
+                <p><a href="datasets/Proteomes/Gallus-gallus_9031.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Gallus-gallus_9031.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Gallus-gallus_9031.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Gallus-gallus_9031.svg" alt="Gallus-gallus_9031.fasta">
+            </section>
+
+            <section id="Gibberella-zeae-FGSC9075_229533">
+                <h3>Gibberella-zeae-FGSC9075_229533.fasta</h3>
+                <p><a href="datasets/Proteomes/Gibberella-zeae-FGSC9075_229533.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Gibberella-zeae-FGSC9075_229533.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Gibberella-zeae-FGSC9075_229533.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Gibberella-zeae-FGSC9075_229533.svg" alt="Gibberella-zeae-FGSC9075_229533.fasta">
+            </section>
+
+            <section id="Magnaporthe-oryzae-FGSC8958_242507">
+                <h3>Magnaporthe-oryzae-FGSC8958_242507.fasta</h3>
+                <p><a href="datasets/Proteomes/Magnaporthe-oryzae-FGSC8958_242507.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Magnaporthe-oryzae-FGSC8958_242507.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Magnaporthe-oryzae-FGSC8958_242507.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Magnaporthe-oryzae-FGSC8958_242507.svg" alt="Magnaporthe-oryzae-FGSC8958_242507.fasta">
+            </section>
+
+            <section id="Oryza-sativa-japonica_39947">
+                <h3>Oryza-sativa-japonica_39947.fasta</h3>
+                <p><a href="datasets/Proteomes/Oryza-sativa-japonica_39947.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Oryza-sativa-japonica_39947.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Oryza-sativa-japonica_39947.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Oryza-sativa-japonica_39947.svg" alt="Oryza-sativa-japonica_39947.fasta">
+            </section>
+
+            <section id="Phytophthora-infestans-T30-4_403677">
+                <h3>Phytophthora-infestans-T30-4_403677.fasta</h3>
+                <p><a href="datasets/Proteomes/Phytophthora-infestans-T30-4_403677.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Phytophthora-infestans-T30-4_403677.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Phytophthora-infestans-T30-4_403677.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Phytophthora-infestans-T30-4_403677.svg" alt="Phytophthora-infestans-T30-4_403677.fasta">
+            </section>
+
+            <section id="Sus-scrofa_9823">
+                <h3>Sus-scrofa_9823.fasta</h3>
+                <p><a href="datasets/Proteomes/Sus-scrofa_9823.fasta">Original Fasta File</a></p>
+                <p><a href="datasets/Transportomes/Sus-scrofa_9823.fasta">TooT-T Fasta File</a></p>
+                <p><a href="datasets/BERT/Proteomes/Sus-scrofa_9823.fasta">TooT-BERT-T Fasta File</a></p>
+                <img src="svg/Sus-scrofa_9823.svg" alt="Sus-scrofa_9823.fasta">
+            </section>
+
+
+</section>
+<footer>
+Copyright Greg Butler 2019
+</footer>
+
+</body>
+</html>
