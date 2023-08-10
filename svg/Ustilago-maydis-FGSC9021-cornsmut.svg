@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2023-08-10T14:59:56.888894</dc:date>
+    <dc:date>2023-08-10T15:10:02.959237</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -37,7 +37,7 @@ C 139.566589 120.78127 129.890316 129.023172 123.100531 139.458087
 C 116.310746 149.893003 112.695295 162.078557 112.695295 174.528 
 C 112.695295 186.977443 116.310746 199.162997 123.100531 209.597913 
 C 129.890316 220.032828 139.566589 228.27473 150.948758 233.31803 
-" clip-path="url(#pa39cae54b2)" style="fill: #ff0000; opacity: 0.4"/>
+" clip-path="url(#pff3e7e98fa)" style="fill: #ff0000; opacity: 0.4"/>
    </g>
    <g id="patch_3">
     <path d="M 150.948758 115.73797 
@@ -65,7 +65,7 @@ C 265.810221 62.822455 253.616505 61.443759 241.440216 62.046187
 C 229.263927 62.648615 217.265852 65.224212 205.915096 69.672276 
 C 194.56434 74.12034 184.010789 80.382135 174.66707 88.212834 
 C 165.323352 96.043534 157.312848 105.339735 150.948758 115.73797 
-" clip-path="url(#pa39cae54b2)" style="fill: #008000; opacity: 0.4"/>
+" clip-path="url(#pff3e7e98fa)" style="fill: #008000; opacity: 0.4"/>
    </g>
    <g id="patch_4">
     <path d="M 150.948758 233.31803 
@@ -79,7 +79,7 @@ C 203.093641 114.791313 192.801553 111.284788 182.128994 110.430436
 C 171.456436 109.576085 160.737586 111.400659 150.948758 115.73797 
 C 140.118653 133.433189 134.385912 153.781628 134.385912 174.528 
 C 134.385912 195.274372 140.118653 215.622811 150.948758 233.31803 
-" clip-path="url(#pa39cae54b2)" style="fill: #b25900; opacity: 0.4"/>
+" clip-path="url(#pff3e7e98fa)" style="fill: #b25900; opacity: 0.4"/>
    </g>
    <g id="text_1">
     <!-- 68 -->
@@ -1030,7 +1030,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pa39cae54b2">
+  <clipPath id="pff3e7e98fa">
    <rect x="92.258692" y="41.472" width="287.802617" height="266.112"/>
   </clipPath>
  </defs>
