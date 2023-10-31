@@ -6,7 +6,11 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<<<<<<< HEAD
     <dc:date>2023-08-10T15:10:02.548180</dc:date>
+=======
+    <dc:date>2023-07-17T17:58:50.583428</dc:date>
+>>>>>>> branch 'main' of git@github.com:bioinformatics-group/tootsuite-website.git
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -37,7 +41,11 @@ C 148.07778 107.478863 134.394032 116.852139 124.655845 129.747307
 C 114.917658 142.642475 109.646614 158.368865 109.646614 174.528 
 C 109.646614 190.687135 114.917658 206.413525 124.655845 219.308693 
 C 134.394032 232.203861 148.07778 241.577137 163.620142 245.998975 
+<<<<<<< HEAD
 " clip-path="url(#p6194834a04)" style="fill: #ff0000; opacity: 0.4"/>
+=======
+" clip-path="url(#p18af5f8ce1)" style="fill: #ff0000; opacity: 0.4"/>
+>>>>>>> branch 'main' of git@github.com:bioinformatics-group/tootsuite-website.git
    </g>
    <g id="patch_3">
     <path d="M 163.620142 103.057025 
@@ -65,7 +73,11 @@ C 277.459283 64.893302 266.10063 62.691622 254.606664 62.252352
 C 243.112698 61.813081 231.619137 63.141408 220.528364 66.190827 
 C 209.43759 69.240246 198.880561 73.974751 189.226872 80.228589 
 C 179.573183 86.482427 170.936821 94.181756 163.620142 103.057025 
+<<<<<<< HEAD
 " clip-path="url(#p6194834a04)" style="fill: #008000; opacity: 0.4"/>
+=======
+" clip-path="url(#p18af5f8ce1)" style="fill: #008000; opacity: 0.4"/>
+>>>>>>> branch 'main' of git@github.com:bioinformatics-group/tootsuite-website.git
    </g>
    <g id="patch_4">
     <path d="M 163.620142 245.998975 
@@ -79,7 +91,11 @@ C 219.56232 108.303394 208.906891 103.598399 197.608835 101.486246
 C 186.310779 99.374093 174.67523 99.911827 163.620142 103.057025 
 C 147.034383 123.175862 137.958162 148.453971 137.958162 174.528 
 C 137.958162 200.602029 147.034383 225.880138 163.620142 245.998975 
+<<<<<<< HEAD
 " clip-path="url(#p6194834a04)" style="fill: #b25900; opacity: 0.4"/>
+=======
+" clip-path="url(#p18af5f8ce1)" style="fill: #b25900; opacity: 0.4"/>
+>>>>>>> branch 'main' of git@github.com:bioinformatics-group/tootsuite-website.git
    </g>
    <g id="text_1">
     <!-- 164 -->
@@ -834,7 +850,11 @@ z
   </g>
  </g>
  <defs>
+<<<<<<< HEAD
   <clipPath id="p6194834a04">
+=======
+  <clipPath id="p18af5f8ce1">
+>>>>>>> branch 'main' of git@github.com:bioinformatics-group/tootsuite-website.git
    <rect x="88.948226" y="41.472" width="294.423549" height="266.112"/>
   </clipPath>
  </defs>
